@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.cabecalho {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+  align-items: center;
+}
+
+figure img {
+  width: 200px;
+}
+.nav-bar {
+  display: flex;
+  gap: 20px;
+  background-color: burlywood;
+  padding: 20px;
+}
+
+.nav-bar a {
+  background-color: #121212;
+  padding: 20px;
+}
